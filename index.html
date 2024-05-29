@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="./image/logo(2).png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Frontend Developer</p>
+          <h1>Hi am <span>Kennis </span><br />John Abasidoh</h1>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------about----------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image/bg2.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+              nisi, officiis aut molestias quod amet dolorum maxime quos
+              laboriosam odio unde architecto molestiae. A, harum repellendus!
+              Accusamus sint saepe ipsa tenetur dolorem minima consectetur. Quam
+              magnam tempora hic animi praesentium dolorem. Natus voluptate
+              minima reiciendis.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Deigning web/App interface</li>
+                <li><span>Web development</span><br />Web app development</li>
+                <li>
+                  <span>App development</span><br />Building Android/IOS apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2021 - current </span><br />UI/UX Design training at
+                  IGhub
+                </li>
+                <li>
+                  <span>2019 - 2024</span><br />Team lead at startApps PLC
+                </li>
+                <li><span>2017 - 2019</span><br />intenship at webdeves</li>
+                <li><span>2016 - 2017</span><br />intenship at Rad5</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2023</span><br />UI/UX Design training at IGhub</li>
+                <li><span>2023 </span><br />intenship at webdeves</li>
+                <li><span>2023</span><br />intenship at Rad5</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------services---------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+          <div>
+            <i class="fas fa-code fa-bounce"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              rem obcaecati accusamus vero? Vero, qui cumque.
+            </p>
+            <a href="">Learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-crop-alt fa-shake"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              rem obcaecati accusamus vero? Vero, qui cumque.
+            </p>
+            <a href="">Learn more</a>
+          </div>
+          <div>
+            <i class="fab fa-app-store fa-bounce"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              rem obcaecati accusamus vero? Vero, qui cumque.
+            </p>
+            <a href="">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------------------------- portfolio------------------------ -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="image/work-1.png" alt="" />
+            <div class="layer">
+              <h3>Social Media</h3>
+              <p>
+                The app connets ypo to the talented people around the world.
+                Download it from play store
+              </p>
+              <a href=""><i class="fas fa-external-link-alt fa-bounce"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/work-2.png" alt="" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                The app connets ypo to the talented people around the world.
+                Download it from play store
+              </p>
+              <a href=""><i class="fas fa-external-link-alt fa-bounce"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/work-3.png" alt="" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                The app connets ypo to the talented people around the world.
+                Download it from play store
+              </p>
+              <a href=""><i class="fas fa-external-link-alt fa-bounce"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!----------------------contact------------------------ -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fas fa-paper-plane"></i>kennisjohnabasidoh1@gmail.com
+            </p>
+            <p><i class="fas fa-phone-square-alt"></i> 07018899965</p>
+            <p><i class="fas fa-phone-square-alt"></i> 08137331861</p>
+            <div class="social-icon">
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-twitter-square fa-tilt"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="image/my-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form action="" name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Your Name "
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form> <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copywright">
+      <p>
+        Copyright (c) valgod <i class="fas fa-heart"></i> .
+        kennisjohnabasidoh1@gmail.com
+      </p>
+    </div>
+    <script src="./script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6e8b2447bf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

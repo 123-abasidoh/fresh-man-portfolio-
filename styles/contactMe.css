@@ -1,0 +1,67 @@
+/* ----------contact-------------- */
+.contact-left {
+  flex-basis: 35%;
+}
+.contact-right {
+  flex-basis: 60%;
+}
+.contact-left p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.contact-left p i {
+  color:  var(--blue);
+  margin-right: 15px;
+  font-size: 25px;
+}
+.social-icon a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 15px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+.social-icon a:hover {
+  color:  var(--blue);
+  transform: translateY(-5px);
+}
+.btn.btn2 {
+  display: inline-block;
+  background-color:  var(--blue);
+  color: #fff;
+}
+.btn.btn2:hover {
+  background-color: transparent;
+  color:  var(--blue);
+}
+/* ------=--------------form--------------------- */
+.contact-right form {
+  width: 100%;
+}
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+}
+form .btn2 {
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.copywright {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: #262626;
+  margin-top: 20px;
+  font-weight: 300;
+}.copywright i{color:  var(--blue);}
