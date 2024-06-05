@@ -14,10 +14,10 @@ function opentab(tabname) {
 }
 
 function openmenu() {
-  sidemenu.style.right = "0";
+  sidemenu.style.right = "-100px";
 }
 function closemenu() {
-  sidemenu.style.right = "-200px";
+  sidemenu.style.right = "-500px";
 }
 // email linking
   const scriptURL = 'https://script.google.com/macros/s/AKfycbxr8diebzb2p-0F1kIfZAt8Q66_CaeB9yaUg-s1B6FVlIvnjdhCQYCXPn3Qz0KffUU/exec'

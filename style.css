@@ -30,6 +30,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  position: relative;
 }
 .container {
   padding: 10px 10%;
@@ -41,8 +42,9 @@ nav {
   flex-wrap: wrap;
   position: fixed;
   z-index: 20;
+  backdrop-filter: blur(30px);
+  border-radius: 20px 0px 8px 0px;
   width: 80%;
-  
 }
 .logo {
   width: 140px;
@@ -105,8 +107,8 @@ nav .fas {
     background: var(--blue);
     position: fixed;
     top: 0;
-    right: -200px;
-    width: 200px;
+    right: -500px;
+    width: 300px;
     height: 100vh;
     padding-top: 50px;
     z-index: 2;
